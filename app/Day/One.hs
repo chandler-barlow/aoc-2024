@@ -9,7 +9,7 @@ import Control.Applicative ((<|>))
 import Data.Maybe (fromMaybe)
 
 path1 :: String
-path1 = "/home/cbarlow/Projects/aoc-2024/static/One/p1.txt"
+path1 = "/home/cbarlow/Projects/aoc-2024/inputs/One/p1.txt"
 
 toInts :: String -> [[Int]]
 toInts = map (map (read @Int) . words) . lines
