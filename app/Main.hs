@@ -4,6 +4,7 @@ module Main where
 import Control.Exception (try, SomeException)
 
 import qualified Day.One
+import qualified Day.Two
 
 withInput :: FilePath -> (String -> IO a) -> IO (Either String a)
 withInput path fn = do
@@ -14,5 +15,5 @@ withInput path fn = do
 
 main :: IO ()
 main = do 
-  res <- withInput Day.One.path1 (pure . Day.One.partTwo)
+  res <- withInput Day.Two.testPath (pure . Day.Two.partOne)
   print res

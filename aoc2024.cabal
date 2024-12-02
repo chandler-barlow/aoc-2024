@@ -18,7 +18,8 @@ common warnings
 executable aoc2024
     import:           warnings
     main-is:          Main.hs
-    other-modules:    Day.One
+    other-modules:    Day.One,
+                      Day.Two
     other-extensions: LambdaCase,
                       OverloadedRecordDot,
                       TypeApplications
