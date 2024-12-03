@@ -18,14 +18,19 @@ common warnings
 executable aoc2024
     import:           warnings
     main-is:          Main.hs
+
     other-modules:    Day.One,
-                      Day.Two
+                      Day.Two,
+                      Day.Three
+
     other-extensions: LambdaCase,
                       OverloadedRecordDot,
                       TypeApplications
                       
     build-depends:    base ^>=4.18.2.1,
                       containers,
-                      heaps
+                      attoparsec,
+                      text
+
     hs-source-dirs:   app
     default-language: Haskell2010
