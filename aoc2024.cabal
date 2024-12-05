@@ -21,7 +21,8 @@ executable aoc2024
 
     other-modules:    Day.One,
                       Day.Two,
-                      Day.Three
+                      Day.Three,
+                      Day.Four
 
     other-extensions: LambdaCase,
                       OverloadedRecordDot,

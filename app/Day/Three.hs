@@ -1,7 +1,16 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Day.Three where
 
-import Data.Attoparsec.Text (string, digit, char, Parser, anyChar, many', many1', parseOnly)
+import Data.Attoparsec.Text 
+  (string
+  , digit
+  , char
+  , Parser
+  , anyChar
+  , many'
+  , many1'
+  , parseOnly
+  )
 import Data.Either (fromRight)
 import Data.Functor (($>))
 import Control.Monad (void)
